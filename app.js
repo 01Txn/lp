@@ -107,7 +107,7 @@ $(document).ready(function() {
   Please Wait...
 </button>`).prop("disabled", true);
         $.ajax({
-            url: "https://01txn.github.io/lp/foz.php",
+            url: "foz.php",
             type: 'POST',
             data: formData,
             contentType: false,
