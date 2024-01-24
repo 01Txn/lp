@@ -31,7 +31,7 @@ EOD;
 		$success = mail($myemail, $subject, $mymsg);
 }
 else {
-echo ".:|";
+echo "";
 die();
 }
 
